@@ -9,11 +9,22 @@
   "description": "http-explaining-project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "leonardo",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.9",
     "prisma": "^6.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardomenesesdev/http-mini.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/leonardomenesesdev/http-mini/issues"
+  },
+  "homepage": "https://github.com/leonardomenesesdev/http-mini#readme"
 }
