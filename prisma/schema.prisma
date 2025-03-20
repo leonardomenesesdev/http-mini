@@ -13,7 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model PERSONAGEM{
+model personagem{
   id_personagem   String @id @default(uuid())
   nome  String
   casa  String

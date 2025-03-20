@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/leonardomenesesdev/http-mini/issues"
   },
-  "homepage": "https://github.com/leonardomenesesdev/http-mini#readme"
+  "homepage": "https://github.com/leonardomenesesdev/http-mini#readme",
+  "type": "commonjs"
 }

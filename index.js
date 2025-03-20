@@ -70,10 +70,10 @@ app.patch('/personagem/:id', async (req, res) => {
 app.delete('/personagem/:id', async (req, res) =>{
     const {id} = req.params;
     try {
-        await prisma.personagem.delete({
+        const personagemDeletado = await prisma.personagem.delete({
             where: {id_personagem: id}
         })
-        res.status(204).send();
+        res.send(personagemDeletado);
     } catch (error) {
         console.log(error);
     }
